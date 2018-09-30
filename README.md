@@ -1,2 +1,5 @@
 # Useful-Git-Commands
-This repository contains common and useful git commands
+
+##**Common and useful git commands:**
+
+**1. git init**

@@ -59,3 +59,36 @@ Fetch the latest changes from origin and merge.
 
 **3. git push**<br />
 Push local changes to the origin.
+
+### **Working with Remotes**
+**1. git remote add <remote name> <url>**<br />
+To add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at.
+The git remote add command takes two arguments:
+A remote name, for example, origin
+A remote URL, for example, https://github.com/user/repo.git
+Ex. git remote add origin https://github.com/user/repo.git
+
+**2. git remote**<br />
+It lists the shortnames of each remote handle you’ve specified. If you’ve cloned your repository, you should at least see origin — that is the default name Git gives to the server you cloned from.
+
+**3. git remote -v**<br />
+Verify new remote.
+
+**4. git fetch <remote>**<br />
+The command goes out to that remote project and pulls down all the data from that remote project that you don’t have yet.
+Note: It only downloads the data to your local repository — it doesn’t automatically merge it with any of your work or modify what you’re currently working on. You have to merge it manually into your work when you’re ready.
+
+**5. git clone**<br />
+This command automatically sets up your local master branch to track the remote master branch (or whatever the default branch is called) on the server you cloned from.
+
+**6. git push <remote> <branch>**<br />
+When you have your project at a point that you want to share, you have to push it upstream.
+Ex. git push origin master
+  
+**7. git remote rename**<br />
+To change a remote’s shortname. For instance, if you want to rename pb to paul.
+Ex. git remote rename pb paul
+
+**8. git remote remove <remote>**<br />
+If you want to remove a remote.
+Ex. git remote remove sps

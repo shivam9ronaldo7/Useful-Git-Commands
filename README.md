@@ -92,3 +92,7 @@ Ex. git remote rename pb paul
 **8. git remote remove <remote>**<br />
 If you want to remove a remote.
 Ex. git remote remove sps
+
+**9. git remote add origin [copied web address]**<br />
+Copy the link in the input right beneath the title, it should look something like this: https://github.com/mindplace/test-repo.git This is the web address that your local folder will use to push its contents to the remote folder on Github.
+Ex: git remote add origin https://github.com/mindplace/test-repo.git

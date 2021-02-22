@@ -97,5 +97,9 @@ Ex. git remote remove sps
 Copy the link in the input right beneath the title, it should look something like this: https://github.com/mindplace/test-repo.git This is the web address that your local folder will use to push its contents to the remote folder on Github.
 Ex: git remote add origin https://github.com/mindplace/test-repo.git
 
-### **Working with Tags**
-**1.
+### **Random useful commands**
+**1. git branch | grep -v "master" | xargs git branch -D
+It will delete all branches except master
+
+**2. git checkout origin/master -- src/main/java/HelloWorld.java
+Overwrite the modified file with the file in another branch ex. master
